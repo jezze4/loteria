@@ -1,0 +1,16 @@
+$cardheight: 95vh;
+
+.card-container{
+  display: inline-flex;
+  flex-direction: column;
+  // height: $cardheight;
+  background: linear-gradient(to bottom right, beige, darken(beige,10%));
+  box-shadow: 0 0 8px gray;
+  margin: 18px;
+}
+
+.card-row{
+  display: inline-flex;
+  flex-direction: row;
+  height: $cardheight/4;
+}

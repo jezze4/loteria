@@ -1,0 +1,12 @@
+$height: 90vh/4;
+$width: $height/2;
+
+.cell-img{
+  height: $height;
+  padding: 4px;
+  transition: filter .4s;
+}
+
+.cell-img:hover{
+  filter: brightness(80%);
+}
