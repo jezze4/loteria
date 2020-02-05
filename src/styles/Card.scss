@@ -1,4 +1,4 @@
-$cardheight: 95vh;
+$cardheight: 75vh;
 
 .card-container{
   display: inline-flex;
@@ -6,7 +6,8 @@ $cardheight: 95vh;
   // height: $cardheight;
   background: linear-gradient(to bottom right, beige, darken(beige,10%));
   box-shadow: 0 0 8px gray;
-  margin: 18px;
+  margin: 14px;
+  margin-top: 48px;
 }
 
 .card-row{
