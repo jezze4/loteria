@@ -18,7 +18,7 @@ class Cell extends PureComponent {
     const {beanPlaced} = this.state;
     return(
       <div className="cell-container" onClick={this.handleClick}>
-        <img className="cell-img" src={id.src} alt={id.name} />
+        <img className="cell-img" src={id.src} alt={id.name} style={{filter: (beanPlaced)?'brightness(70%)':''}}/>
         <img src={Bean} alt='bean'
           style={{
             position: 'absolute',
